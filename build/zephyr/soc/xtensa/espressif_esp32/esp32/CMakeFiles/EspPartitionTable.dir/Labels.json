@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/zephyr/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspPartitionTable"
+		},
+		{
+			"file" : "/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/zephyr/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspPartitionTable.rule"
+		},
+		{
+			"file" : "/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/zephyr/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspPartitionTable-complete.rule"
+		},
+		{
+			"file" : "/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-build.rule"
+		},
+		{
+			"file" : "/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-configure.rule"
+		},
+		{
+			"file" : "/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-download.rule"
+		},
+		{
+			"file" : "/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-install.rule"
+		},
+		{
+			"file" : "/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-mkdir.rule"
+		},
+		{
+			"file" : "/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-patch.rule"
+		},
+		{
+			"file" : "/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"EspPartitionTable"
+		],
+		"name" : "EspPartitionTable"
+	}
+}

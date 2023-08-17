@@ -1,0 +1,13 @@
+# Target labels
+ EspPartitionTable
+# Source files and their labels
+/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/zephyr/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspPartitionTable
+/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/zephyr/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspPartitionTable.rule
+/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/zephyr/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspPartitionTable-complete.rule
+/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-build.rule
+/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-configure.rule
+/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-download.rule
+/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-install.rule
+/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-mkdir.rule
+/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-patch.rule
+/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/zephyr/soc/xtensa/espressif_esp32/esp32/EspPartitionTable-prefix/src/EspPartitionTable-stamp/EspPartitionTable-update.rule

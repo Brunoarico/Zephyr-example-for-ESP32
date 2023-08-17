@@ -1,0 +1,21 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/whitefox/zephyrproject/modules/hal/espressif/components/bootloader/subproject",
+    "build_dir":          "/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/esp-idf/build/bootloader",
+    "config_file":        "/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/esp-idf/build/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "ec90f3c49",
+    "target":             "esp32",
+    "rev":                "0",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "xtensa-esp32-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/whitefox/zephyrproject/modules/hal/espressif/components/efuse/Kconfig;/home/whitefox/zephyrproject/modules/hal/espressif/components/esp32/Kconfig;/home/whitefox/zephyrproject/modules/hal/espressif/components/esp_common/Kconfig;/home/whitefox/zephyrproject/modules/hal/espressif/components/esp_hw_support/Kconfig;/home/whitefox/zephyrproject/modules/hal/espressif/components/esp_system/Kconfig;/home/whitefox/zephyrproject/modules/hal/espressif/components/freertos/Kconfig;/home/whitefox/zephyrproject/modules/hal/espressif/components/hal/Kconfig;/home/whitefox/zephyrproject/modules/hal/espressif/components/log/Kconfig;/home/whitefox/zephyrproject/modules/hal/espressif/components/newlib/Kconfig;/home/whitefox/zephyrproject/modules/hal/espressif/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/whitefox/zephyrproject/modules/hal/espressif/components/bootloader/Kconfig.projbuild;/home/whitefox/zephyrproject/modules/hal/espressif/components/esp_rom/Kconfig.projbuild;/home/whitefox/zephyrproject/modules/hal/espressif/components/esptool_py/Kconfig.projbuild;/home/whitefox/zephyrproject/modules/hal/espressif/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "/home/whitefox/zephyrproject/modules/hal/espressif/components/bootloader", "/home/whitefox/zephyrproject/modules/hal/espressif/components/bootloader_support", "/home/whitefox/zephyrproject/modules/hal/espressif/components/efuse", "/home/whitefox/zephyrproject/modules/hal/espressif/components/esp32", "/home/whitefox/zephyrproject/modules/hal/espressif/components/esp_common", "/home/whitefox/zephyrproject/modules/hal/espressif/components/esp_hw_support", "/home/whitefox/zephyrproject/modules/hal/espressif/components/esp_rom", "/home/whitefox/zephyrproject/modules/hal/espressif/components/esp_system", "/home/whitefox/zephyrproject/modules/hal/espressif/components/esptool_py", "/home/whitefox/zephyrproject/modules/hal/espressif/components/freertos", "/home/whitefox/zephyrproject/modules/hal/espressif/components/hal", "/home/whitefox/zephyrproject/modules/hal/espressif/components/log", "/home/whitefox/zephyrproject/modules/hal/espressif/components/bootloader/subproject/main", "/home/whitefox/zephyrproject/modules/hal/espressif/components/bootloader/subproject/components/micro-ecc", "/home/whitefox/zephyrproject/modules/hal/espressif/components/newlib", "/home/whitefox/zephyrproject/modules/hal/espressif/components/partition_table", "/home/whitefox/zephyrproject/modules/hal/espressif/components/soc", "/home/whitefox/zephyrproject/modules/hal/espressif/components/spi_flash", "/home/whitefox/zephyrproject/modules/hal/espressif/components/xtensa", "" ]
+}

@@ -1,0 +1,13 @@
+# Target labels
+ EspIdfBootloader
+# Source files and their labels
+/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/zephyr/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspIdfBootloader
+/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/zephyr/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspIdfBootloader.rule
+/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/zephyr/soc/xtensa/espressif_esp32/esp32/CMakeFiles/EspIdfBootloader-complete.rule
+/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-build.rule
+/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-configure.rule
+/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-download.rule
+/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-install.rule
+/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-mkdir.rule
+/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-patch.rule
+/home/whitefox/zephyrproject/zephyr/samples/basic/esp32_led/build/esp-idf/src/EspIdfBootloader-stamp/EspIdfBootloader-update.rule
