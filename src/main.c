@@ -9,7 +9,7 @@
 const int ON = 1;
 const int OFF = 0;
 
-//#define ENABLE_SEM
+#define ENABLE_SEM
 //#define EQUAL_PRIORITY
 
 #ifdef EQUAL_PRIORITY
@@ -94,7 +94,8 @@ void worker(void *p1, void *p2, void *p3) {
     int i=0;
 	while (1) {
         #ifdef ENABLE_SEM
-		k_sem_take(&off_sem, K_FOREVER);
+		if(action)k_sem_take(&off_sem, K_FOREVER);
+        else k_sem_take(&on_sem, K_FOREVER);
         #endif
 
 		time_stamp = k_uptime_get();
@@ -102,11 +103,14 @@ void worker(void *p1, void *p2, void *p3) {
 		delta_time = k_uptime_delta(&time_stamp);
 
 		gpio_pin_set(led, LED_PIN, action);
-        printk("Thread %s running on cpu %d turn led ON (iteration %d time: %lld)\n", name, cpu_number, i, delta_time);
-		
+        if(action == ON) 
+            printk("Thread %s running on cpu %d turn led ON (iteration %d time: %lld)\n", name, cpu_number, i, delta_time);
+		else 
+            printk("Thread %s running on cpu %d turn led OFF (iteration %d time: %lld)\n", name, cpu_number, i, delta_time);
         k_sleep(K_MSEC(500));
         #ifdef ENABLE_SEM
-		k_sem_give(&on_sem);
+		if(action)k_sem_give(&on_sem);
+        else k_sem_give(&off_sem);
         #endif
         i++;
 	}
@@ -142,10 +146,11 @@ void main() {
 	configLed();
 
 	configThreads();
-
-	k_thread_start(&threadA_data);
-	k_thread_start(&threadB_data);
     #ifdef ENABLE_SEM
 	k_sem_give(&on_sem);
     #endif
+
+	k_thread_start(&threadA_data);
+	k_thread_start(&threadB_data);
+   
 }
